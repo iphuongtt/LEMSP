@@ -144,6 +144,7 @@ server {
 63. `ip addr`
 64. add new line with this string to host file: `192.168.1.27 myblog.com`
 65. `php artisan key:generate`
+66. Enable Protocol TCP/IP of SQL Server and Set Port to 1433
 66. `sudo vi config/database.php`
 ```
 'sqlsrv' => [
